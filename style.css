@@ -1,0 +1,74 @@
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  color: white;
+}
+
+body,
+html {
+  height: 100%;
+}
+
+body {
+  background: black;
+  color: white;
+  font-family: "Inter";
+  text-align: center;
+  font-size: 25px;
+}
+
+img {
+  height: 100px;
+}
+
+.center {
+  height: 100%;
+  /* flex-direction: column; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+h1 {
+  text-transform: uppercase;
+  font-size: 4em;
+}
+
+p {
+  font-weight: 400;
+  opacity: 50%;
+}
+
+.skew {
+  transform: skew(-16deg, 2deg);
+  transition: transform 0.5s;
+}
+.skew:hover {
+  transform: skew(0deg, 0deg);
+}
+
+header,
+footer {
+  position: absolute;
+  width: 100%;
+  text-align: center;
+}
+
+header {
+  top: 10%;
+}
+
+footer {
+  bottom: 10%;
+  opacity: 100%;
+}
+
+footer{
+    opacity: 0.5;
+    transition: opacity .5s;
+}
+
+footer:hover{
+    opacity: 1;
+}
