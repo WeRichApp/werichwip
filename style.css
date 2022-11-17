@@ -19,7 +19,7 @@ html {
 
 body {
   color: white;
-  font-family: "Inter";
+  font-family: "Inter", "Arial";
   text-align: center;
   font-size: 25px;
   overflow: hidden;
