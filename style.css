@@ -72,11 +72,11 @@ footer {
   opacity: 100%;
 }
 
-footer{
-    opacity: 0.5;
-    transition: opacity .5s;
+footer {
+  opacity: 0.5;
+  transition: opacity 0.5s;
 }
 
-footer:hover{
-    opacity: 1;
+footer:hover {
+  opacity: 1;
 }
