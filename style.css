@@ -16,6 +16,7 @@ body {
   font-family: "Inter";
   text-align: center;
   font-size: 25px;
+  overflow: hidden;
 }
 
 img {
